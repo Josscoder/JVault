@@ -33,9 +33,7 @@ public class VaultCommand extends Command {
 
         inventory.addListener(new FakeInventoryListener() {
             @Override
-            public void onSlotChange(FakeSlotChangeEvent fakeSlotChangeEvent) {
-
-            }
+            public void onSlotChange(FakeSlotChangeEvent fakeSlotChangeEvent) {}
 
             @Override
             public void onClose(FakeInventoryCloseEvent fakeInventoryCloseEvent) {

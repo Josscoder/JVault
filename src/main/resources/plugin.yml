@@ -1,4 +1,4 @@
-name: JVault
+name: ${project.artifactId}
 main: josscoder.vault.JVaultPlugin
 api: 1.0.0
 version: ${project.version}
